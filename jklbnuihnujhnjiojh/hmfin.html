@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <meta charset="UTF-8">
+     <title>hamanieh </title>
+     <link rel="stylesheet" href="htm.css">
+     
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   </head>
+
+   <body>
+    <div class="container">
+      <header>
+
+        <h1>Hamaniêh</h1>
+        </header>
+        <section class="nav">
+        
+      <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link acceuil" href="#">ACCUEIL</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ANNUAIRE</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">musees et galeries</a>
+      <a class="dropdown-item" href="#">fetes et dances traditionelles</a>
+      <a class="dropdown-item" href="#">ethnies</a>
+      <a class="dropdown-item" href="#">sites touristiques</a>
+      <a class="dropdown-item" href="#">pagnes traditionnels</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">AGENDA</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">evennements</a>
+      <a class="dropdown-item" href="#">fetes traditionelles</a>
+      <a class="dropdown-item" href="#">evennements culturels</a>
+      
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#articles">ARTICLES</a>
+  </li>
+  
+  </ul>
+      </section>
+		 
+
+     <section class="image">
+    
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ma1.jpg" class="d-block w-100" alt="culture">
+    </div>
+    
+  </div>
+  
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<marquee ><h6>decouvrez avec nous la côte d'ivoire en profondeur</h6></marquee>
+<hr>
+<div id="articles" class="container">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">les groupes ethniques</h5>
+        <p class="card-text">Quatre grands groupes ethniques peuplent la Côte d'Ivoire :
+<li>les Mandé dans le Nord-Ouest (Malinkés, Dan, Gouro…)</li>
+<li>les gours dans le Nord-Est (Sénoufo, Lobi, Koulango…)</li>
+<li>les Krou dans le Sud-Ouest (Bété, Guéré, Dida…)</li>
+<li>les Akan dans le Sud -Est (Baoulé, Agni, Abron, Attié…)</li>
+....</p>
+        <a href="#" class="btn btn-primary">plus d'infos</a>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-6">
+     <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">le peuple akan</h5>
+        <p class="card-text"> 
+Le Sud et l'Est de la Côte-d'Ivoire sont occupés par différentes branches de la famille Akan (Frontaliers, Lagunaires et Baoulé-Agni). On les retrouve aussi dans les apys voisins du Ghana, au Togo et au Bénin.
+
+En Côte d'Ivoire même, on compte trois grands ...</p>
+        <a href="#" class="btn btn-primary">plus d'infos</a>
+      </div>
+     </div>
+    </div>
+  </div>
+ </div>
+ <br>
+ <marquee>
+  <img src="fetes.jpg">
+  <img src="voyage.jpg">
+  <img src="ma2.jpg">
+</marquee>
+
+  
+</section>
+<section id="inscription">
+  <p><button type="button" class="btn btn-success btn-lg btn-block">inscrivez vous ici pour participer a notre prochain voyage touristque</button></p>
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Adresse électronique</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer votre email">
+    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email avec qui que ce soit.
+</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Mot de passe.</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="mot de pass">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">s'inscrire</button>
+</form>
+  
+</section>
+<br><br>
+     <footer>
+       <ul>
+         <li><h6>partenaires</h6></li>
+         <li>globals dreams</li>
+         <li>blad corporation</li>
+       </ul>
+        <ul>
+         <li><h6>contacts</h6></li>
+         <li>telephone</li>
+         <li>adresse email</li>
+       </ul>
+        <ul>
+         <li><h6>nos pages</h6></li>
+         <li>facebook</li>
+         <li>instagram</li>
+       </ul>
+     </footer>
+    
+               
+ 
+    
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
